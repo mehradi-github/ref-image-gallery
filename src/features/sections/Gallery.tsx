@@ -1,9 +1,11 @@
 import React, { FC } from "react";
+import Card from "./Card";
 
 const Gallery: FC = () => {
   return (
     <section className="gallery">
-      <h1 className="gallery-title">Polaroid Image Gallery</h1>
+      <h1 className="gallery-title">Image Gallery</h1>
+      <Card id={237} />
     </section>
   );
 };
